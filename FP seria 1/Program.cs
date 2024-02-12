@@ -72,8 +72,8 @@ namespace FP_seria_1
             aux = Math.Sqrt(delta);
             if (delta > 0)
             {
-                x1 = (-b + aux) / 2;
-                x2 = (-b - aux) / 2;
+                x1 = (-b + aux) / 2*a;
+                x2 = (-b - aux) / 2*a;
                 Console.WriteLine("Solutiile ecuatiei sunt: " + x1 + "," + x2);
             }
             else
